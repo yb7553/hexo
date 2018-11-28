@@ -9,10 +9,11 @@ Docker 是一个开源的应用容器引擎，让开发者可以打包他们的�
 #### 1、Docker有以下几个部分组成：
 	
 ```
-- DockerClient客户端
+- Client客户端
 - Docker Daemon守护进程
 - Docker Image镜像
 - DockerContainer容器
+- Registry镜像仓库
 ```
 
 
@@ -169,3 +170,4 @@ docker inspect 容器的名称
 也可以直接执行下面的命令直接输出IP地址
 docker inspect --format='{{.NetworkSettings.IPAddress}}' mycentos2
 ```
+
