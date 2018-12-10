@@ -73,7 +73,7 @@ footer:
     color: "#808080"
 
   # If not defined, will be used `author` from Hexo main config.
-  copyright:
+  copyright: 
   # -------------------------------------------------------------
   powered:
     # Hexo link (Powered by Hexo).
@@ -191,10 +191,11 @@ social:
   #Instagram: https://instagram.com/yourname || instagram
   #Skype: skype:yourname?call|chat || skype
 
-social_icons:
-  enable: true
-  icons_only: false
-  transition: false
+social_icons: #设置图标是否显示这里
+  enable: true #表示开启
+  icons_only: true #只显示图片
+  transition: true
+  exturl: false
 
 # Follow me on GitHub banner in right-top corner.
 # Usage: `permalink || title`
@@ -838,7 +839,7 @@ lazyload: false
 
 # Progress bar in the top during page loading.
 # Dependencies: https://github.com/theme-next/theme-next-pace
-pace: false
+pace: true  #设置为true
 # Themes list:
 #pace-theme-big-counter
 #pace-theme-bounce
