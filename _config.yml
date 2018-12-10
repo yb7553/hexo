@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 码农的春天
+title: 架构的春天
 subtitle: 好的架构是码农的春天，不用加班、有时间泡妞
 description: 加班泡妞
-keywords:
+keywords: 
 author: 严彬
-language:
-timezone:
+language: zh-CN
+timezone: UTC
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -21,9 +21,9 @@ permalink_defaults:
 # Directory
 source_dir: source
 public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
+tag_dir: tags #标签
+archive_dir: archives #归档
+category_dir: categories #类别
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:

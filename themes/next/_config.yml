@@ -136,17 +136,17 @@ exturl: false
 # Value before `||` delimeter is the target link.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, question icon will be loaded.
 menu:
-  home: / || home
-  photo: /photo/ || picture
-  music: /music/ || music
-  welfare: /welfare/ || coffee
-  #about: /about/ || user
-  tags: /tags/ || tags
-  categories: /categories/ || th
-  archives: /archives/ || archive
-  #schedule: /schedule/ || calendar
-  #sitemap: /sitemap.xml || sitemap
-  #commonweal: /404/ || heartbeat
+  home: / || home #首页
+  #photo: /photo/ || picture
+  #music: /music/ || music
+  #welfare: /welfare/ || coffee
+  about: /about/ || user #关于我
+  tags: /tags/ || tags  #标签
+  categories: /categories/ || th #分类
+  archives: /archives/ || archive #归档
+  schedule: /schedule/ || calendar  #时间表
+  #sitemap: /sitemap.xml || sitemap #网站地图
+  #commonweal: /404/ || heartbeat #公益
 
 # Enable/Disable menu icons / item badges.
 menu_settings:
@@ -158,8 +158,8 @@ menu_settings:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
+#scheme: Muse
+scheme: Mist
 #scheme: Pisces
 #scheme: Gemini
 
@@ -180,7 +180,9 @@ social:
   GitHub: https://github.com/yb7553 || github
   E-Mail: mailto:23218371@qq.com || envelope
   微博: https://weibo.com/p/1005056877345143/home?from=page_100505&mod=TAB#place || weibo
-  简书: https://www.jianshu.com/u/33161a98bf55 || jianshu
+  简书: https://www.jianshu.com/u/33161a98bf55 || heartbeat
+  #Segmentfault: https://segmentfault.com/blog/iconye_vue || link
+  #知乎: https://www.zhihu.com/people/yi-ke-id/activities || ioxhost
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
   #VK Group: https://vk.com/yourname || vk
