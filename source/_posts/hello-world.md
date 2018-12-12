@@ -2,11 +2,15 @@
 title: docker基础架构
 date: 2018-12-11 10:13:58
 categories: 
-- 自动化构建
+- 容器技术
 tags: 
-- devops
+- docker
 ---
-在持续集成与部署方面，我们主要还是在用 svn、git、jenkins、docker。通过 jenkins 我们自己做了一个自动化接口测试平台。目前只是做接口测试，而性能测试在大版本发布之前会集中来做。通过我们的测试，构建之后会发到 harbor，一个企业级的镜像仓库，而实际的部署，是用到 rancher，不可否认 rancher 是在容器管理编排方面的小白入门的利器，我们开始用它也是因为它的界面比较清爽，用起来比较简单。在 rancher 上主要实现两个方案，一个是部署，一个是升级。
+首先我们从 "Hello from Docker!"开始，了解 docker 的运转流程，docker 经过了这些步骤：
+- docker 客户端连接 docker daemon 进程。
+- docker daemon 向 docker hub 请求 "hello-world"镜像。
+- docker daemon 从这个镜像，创建一个新的容器并产生了你看到的输出内容。
+- docker daemon 流输出到 docker 客户端 ，并输出到你的终端。
 <!-- more -->
 
 ![image.png](https://upload-images.jianshu.io/upload_images/5189695-0f77a07c50f709a8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
